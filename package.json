@@ -57,6 +57,7 @@
     "eslint": "^7.5.0",
     "eslint-config-trybe-frontend": "^1.2.3",
     "eslint-plugin-jest-dom": "^3.9.0",
-    "eslint-plugin-testing-library": "^4.10.0"
+    "eslint-plugin-testing-library": "^4.10.0",
+    "jest": "^28.1.0"
   }
 }
