@@ -4,10 +4,6 @@ import renderWithRouter from './renderWithRouter';
 import { About } from '../components';
 
 describe('Teste á aplicação About.js ', () => {
-  test('verifica se o título sobre a pokédex e renderizado ', () => {
-
-  });
-
   test('verifica se a página contém um h2 com nome "About Pokédex"', () => {
     renderWithRouter(<About />);
     const pegaH2 = screen.getByRole('heading', { level: 2, name: /about pokédex/i });
